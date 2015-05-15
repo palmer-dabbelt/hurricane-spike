@@ -1,0 +1,9 @@
+LANGUAGES   += c++
+COMPILEOPTS += -std=c++11
+
+LANGUAGES   += c++
+COMPILEOPTS += -I/home/palmer/.local/src/riscv-isa-sim/install/include
+
+LIBRARIES   += libhurricane-spike.so
+SOURCES     += spike/hurricane_extension.c++
+
